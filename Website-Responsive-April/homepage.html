@@ -1,0 +1,850 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+            <title>Website with Grid</title>
+            
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=width-device, initial-scale= 1.0, shrink-to-fit=no">
+  
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="js/main.js"></script>  
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Gamja+Flower|Lato|Maven+Pro|Open+Sans|Raleway|Roboto|Roboto+Slab|Montserrat|Lato|Rubik|Avenir|Gugi|Poiret+One|Fugaz+One|Montserrat+Alternates|Slabo+13px" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    
+    </head>
+
+   
+    <body>
+        <div class="wrapper-sidebar">
+
+    
+            <div class="sidebar-area">
+
+                    <div class="toggle-btn" onclick="show()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                    </div> 
+
+                <div id="sidebar">
+                    
+                    <a href="#" class="close-btn" onclick="closeNav()"><img src="img/close-icon-white.png"></a>
+                 
+                        
+                    <div class="sidebar-row">
+                    <ul>   
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Hotels</a></li>   
+                        <li><a href="#">Subscribe</a></li>
+                    </ul>
+                    </div>
+
+                </div>
+        
+            </div> 
+        </div>      
+        
+
+    <div id="main-content">
+
+        <div class="wrapper-header">
+
+        <!-- Main Menu Navigation Section -->
+
+         <div class="main-header"> 
+            <header>  
+                <div class="logo-space">
+                    <img src="img/lost-people-logo-new.png">
+                </div>
+                
+                    <div class="main-nav">
+
+                        <div class="search">
+                                <div class="wrapper-search">
+                
+                                    <input type ="text" class ="search-box-input" placeholder ="Search" name="Search">
+                                    <div class ="button-area">
+                                            <button class="button" type="submit">
+                                                <i class="fa fa-search"></i></button>
+                                            </button>
+                                    </div>
+            
+                                </div>
+                        </div>
+
+                        <div class="box1">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Flights</a></li>
+                            <li><a href="#">Hotels</a></li>   
+                            <li><a href="#">Subscribe</a></li>
+                        </ul>
+                        </div>
+
+                    </div>    
+
+               
+            </header>
+        </div>
+        </div>  <!-- wrapper-header-ends-here     -->
+
+        
+    
+
+<div class="wrapper">
+
+            <!-- Showcase Section -->
+          
+                <section class="login-area">
+
+                    <div class="showcase">
+
+                       <section class="wrapper-text-login"> 
+
+                        <div class="text-area">
+                            <h1>Travel network for the nomadic</h1>
+                            <p> Create a profile, and follow other travellers. 
+                                Follow articles contributed by our members, meet up with each other!
+                            </p>
+                        </div>  
+
+                        <div class="line-area"> 
+                        <img src="img/line-vertical.png" alt="">
+                        </div>
+                    
+                        <div class="button-area"> 
+                            <a href="#" class="signup-button-main" onclick="openSignupbox()">Sign up here</a>
+                            <a href="#" class="login-button-main" onclick="openLoginbox()">Login here</a>
+                        </div>
+
+                        </section>
+
+                    </div>
+
+                </section>  
+
+            <!-- Signup Area -->
+            <div id="wrapper-signup">
+                
+                <section class="signup-user-area">
+    
+                    <div class="signup-column">
+                      <span></span>
+                    </div>
+    
+                    <div class="signup-box">
+    
+                            <a href="#" class="signup-close-btn" onclick="closeSignupbox()"><img src="img/cross.png"></a>
+                        
+                            <div class="signup">
+    
+                                    <form action="" method="">
+
+                                        <p>Username</p>
+                                        <input type="username" name="" placeholder="create a username">
+                                        
+                                        <br><br>
+                                        
+                                        <p>Email</p>
+                                        <input type="email" name="" placeholder="enter your email address">
+                                        <!-- <a href="#" class="forgot-password">Forgot username?</a> -->
+                                        <br><br>
+                                        <p>Password</p>
+                                        <input type="password" name="" placeholder="create a password with at least 8 characters">
+    
+                                        <!-- <a href="#" class="forgot-password">Forgot password?</a> -->
+                                        <br><br><br>
+    
+                                        <div class="signup-tc">
+                                            <div class="submit-button">
+                                                <input type="submit" name="" onclick="alert('I am fine thank you')" value="Sign Up">
+                                            </div>
+
+                                        <div class="terms-condition">
+                                            <input type="checkbox" class="check-box" name="" value="agreed" id="agree">
+                                            <p>By checking this box, you agree to our terms and condition.</p>
+                                        </div>
+                                        </div>
+    
+                                        <br><br>
+    
+                                <div class="line-area-signup"> 
+    
+                                        <div class="horizontal-line">
+                                        <hr width="100%" color="#242424">
+                                        </div>
+    
+                                        <div class="text">
+                                        <p>or</p>
+                                        </div>
+    
+                                        <div class="horizontal-line-2">
+                                                <hr width="100%" color="#242424">
+                                                </div>
+                                        <br><br>
+                                </div>    
+    
+                                    <div class="social">
+    
+                                        <div class="text">
+                                            <p>Use your social accounts:</p>
+                                        </div>
+    
+                                        <div class="social-btn">
+                                        <button type="button" id="facebook-signup" onclick="alert('How you doing?')"><img src="img/facebook-signup.png" class="fb-signup-icon" width="20px"><p> Sign up with Facebook </p></button>
+                                        <br><br>
+                                        <button type="button" id="google-signup" onclick="alert('How you doing?')"><img src="img/google-signup.png" class="gg-signup-icon" width="20px"><p> Sign up with Google </p></button>
+                                        </div>
+    
+                                    </div>
+                                    
+                                    
+                                    </form>
+                                </div> 
+    
+                    </div>
+    
+                </section>
+            </div>  
+
+
+                
+            <!-- Login Area -->
+    <div id="wrapper-login">
+                
+                <section class="login-user-area">
+
+                <div class="login-background">
+                  <span></span>
+                </div>
+
+                <div class="login-box">
+
+                    <a href="#" class="login-close-btn" onclick="closeLoginbox()"><img src="img/cross.png"></a>
+                                
+                        <div class="login">
+
+                                <form action="" method="">
+
+                                    <p>Email</p>
+                                    <input type="email" name="" placeholder="enter your email address">
+                                    
+                                    <div class="forgot-password-area">
+                                    <a href="#" alt="">Forgot username?</a>
+                                    </div>
+
+                                    <br>
+                                    <p>Password</p>
+                                    <input type="password" name="" placeholder="enter your password">
+                                    
+                                    <div class="forgot-username-area">
+                                    <a href="#" alt="">Forgot password?</a>
+                                    </div>
+
+                                    <br><br>
+
+                                    <div class="login-tc">
+                                        <input type="submit" name="" onclick="alert('How are you doing?')" value="Login">
+
+                                    <div class="terms-condition">
+                                        <input type="checkbox" class="check-box" name="" value="agreed" id="agree">
+                                        <p>Keep me logged in on this device.</p>
+                                        </div>
+                                    </div>
+
+                                    <br><br>
+
+                            <div class="line-area-login"> 
+
+                                    <div class="horizontal-line">
+                                    <hr width="100%" color="#242424">
+                                    </div>
+
+                                    <div class="text">
+                                    <p>or</p>
+                                    </div>
+
+                                    <div class="horizontal-line-2">
+                                            <hr width="100%" color="#242424">
+                                            </div>
+                                    <br><br>
+                            </div>    
+
+                                <div class="social">
+
+                                    <div class="text">
+                                        <p>Use your social logins:</p>
+                                    </div>
+
+                                    <div class="social-btn">
+                                        <button type="button" id="facebook-login" onclick="alert('How you doing?')"><img src="img/facebook-login.png" class="fb-login-icon" width="20px"><p>Login with Facebook</p></button>
+                                        <br><br>
+                                        <button type="button" id="google-login" onclick="alert('How you doing?')"><img src="img/google-login.png" class="gg-login-icon" width="20px"><p>Login with Google</p></button>
+                                        </div>
+
+                                </div>
+                                
+                                
+                                </form>
+                            </div> 
+
+                </div>
+
+            </section>
+        </div>    
+
+            
+            
+            <!-- Top Section -->
+
+            <section class="top-container">
+
+                <div class="left-column">
+                         
+                    <div class="big-banner">
+                        <img src="" height="600"/>
+                        
+                    <div class="background-layer">
+                        <span></span>
+                        </div>    
+                    <section class="text-box">
+                        <h1>Park yourself by the seashore,</h1>
+                        
+                        <p>I've crossed the deserts for miles
+                            Swam water for time
+                            Searching places to find
+                            A piece of something to call mine.
+                            I'm coming
+                            A piece of something to call mine.
+                            I'm coming
+                            I'm coming
+                            Coming closer to you.
+                            </p>
+
+                            <a href="#" class="btn">Read more</a>            
+                        </section>
+                        
+                    
+                    </div>
+
+                </div>
+              
+        
+                <div class="right-column">
+
+                    <div class="Package Search"></div>
+
+                    <div class="small-banner">
+                        <img src="" height="300">
+                    </div> 
+                    
+                    <div class="text-box-2">
+                            <h1>Don't roll your vacation, ever...</h1>
+                            <a href="#" class="btn">Pick no. of days ></a>
+                    </div>
+                </div>    
+                </div>
+            </section>
+
+            <!-- Featured in Section -->
+            
+            
+
+            <div class="wrapper-logo"> 
+
+                    <h2>We are featured in,</h2>
+
+            <section class="container-2">
+
+                    <div class="logo-box-1">
+                        <img src="img/logo-1.png" alt="">
+                    </div>
+
+                    <div class="logo-box-2">
+                        <img src="img/logo-2.png" alt="">
+                    </div>    
+
+                    <div class="logo-box-3">
+                        <img src="img/logo-3.png" alt="">
+                    </div>
+
+                    <div class="logo-box-4">
+                        <img src="img/logo-4.png" alt="">
+                    </div>    
+
+                    <div class="logo-box-5">
+                        <img src="img/logo-5.png" alt="">
+                    </div>    
+
+            </section>
+            </div>
+
+            <!-- How It Works -->
+
+            <div class="wrapper-profile">
+
+                <section class="profile-background-image">
+                        
+                    <div class="header">
+                    <p>HOW IT WORKS</p>
+
+                        
+                    </div>
+
+                    <div class="wrapper-profile-box">
+                        <div class="profile-section">
+
+                             <div class="profile-box">
+                                    <img src="img/lp-icon-1.png" class="icon-1" width="100px" alt="">
+                                    <p>Step-1: <br> Setup a profile, pick your favourite travel destination.</p>
+                            </div>
+
+
+                            <div class="profile-box">
+                                    <img src="img/lp-icon-2.png" class="icon-2" width="100px" alt="">
+                                    <p>Step-2: <br> Pin destinations, plan your travels, follow other nomads.</p>
+                            </div>
+
+
+                            <div class="profile-box">
+                                    <img src="img/lp-icon-3.png" class="icon-3" width="100px" alt="">
+                                    <p>Step-3: <br> Receive daily travel updates, and discover hole in the walls. Fish and chips!</p>
+                            </div>
+                
+                        </div>
+                    </div>
+                
+                </section>
+
+
+
+
+
+                </section>
+
+
+            </div>
+
+            <!-- Featured Trips -->
+            <div class="wrapper-trips">
+
+                <div class="wrapper-header">
+                    <div class="header">
+                        <img src="img/newspaper.png" class="icon" width="27px" alt"">
+                    <p>Articles by our members, </p>
+                    </div>
+                </div>
+
+            <section class="trips">
+
+                <div class="trip-1">
+
+                  <div class="image-box">
+                    <img width="350px" src="img/barber-shop.jpg" alt="">
+                  </div>  
+
+                    <h1>Spotting Barbershops in Antalaya</h1>
+
+                    <div class="author">
+                        <p>9 July, by Jacob Bumito</p>
+                    </div>
+
+                    <div class="text-box-trip">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nulla suscipit arcu ac vestibulum consequat. Etiam eget ultricies arcu. 
+                        Ut sed tincidunt risus, nec scelerisque ipsum. Donec et orci sed ante pellentesque faucibus. 
+                        In molestie congue lorem sed dictum. Morbi velit eros, dictum nec dolor at, 
+                        efficitur scelerisque justo. Pellentesque nec est vestibulum, 
+                        aliquet nibh et, molestie dolor.</p> 
+                        
+                        <!-- <p2>Morbi vel feugiat odio. 
+                        Sed sem neque, pharetra sed magna vitae, porta congue tellus. 
+                        Aliquam varius tristique ex, eget fermentum lectus mattis ut. 
+                      </p2> -->
+                 
+                    </div>
+
+                        <div class="link-box">
+                        <a href="">Read more</a>
+                        </div>
+                </div>
+
+
+                <div class="trip-2">
+
+                    <div class="image-box">
+                        <img width="350px" src="img/antalaya.jpg" alt="">
+                    </div>
+
+                        <h1>Hamams, and Hamams, and Hamams</h1> 
+
+                        <div class="author">
+                                <p>12 August, by Luke Hummington</p>
+                                </div>
+                        
+                        <div class="text-box-trip">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nulla suscipit arcu ac vestibulum consequat. Etiam eget ultricies arcu. 
+                            Ut sed tincidunt risus, nec scelerisque ipsum. Donec et orci sed ante pellentesque faucibus. 
+                            In molestie congue lorem sed dictum. Morbi velit eros, dictum nec dolor at, 
+                            efficitur scelerisque justo. Pellentesque nec est vestibulum, 
+                            aliquet nibh et, molestie dolor.</p> 
+                            
+                            <!-- <p2>Morbi vel feugiat odio. 
+                            Sed sem neque, pharetra sed magna vitae, porta congue tellus. 
+                            Aliquam varius tristique ex, eget fermentum lectus mattis ut. 
+                            </p2> -->
+                        
+                        </div>
+
+                        <div class="link-box">
+                        <a href="">Read more</a>  
+                        </div>  
+                </div>
+
+                <div class="trip-3">
+                    
+                    <div class="image-box">
+                        <img width="350px" src="img/antalya-2.jpg" alt="">
+                    </div>
+
+                        <h1>Antalya Beach, Turkey's Lost Gem</h1>
+
+                        <div class="author">
+                            <p>4 November, by Leslie Ping</p>
+                        </div>
+
+                        <div class="text-box-trip">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nulla suscipit arcu ac vestibulum consequat. Etiam eget ultricies arcu. 
+                            Ut sed tincidunt risus, nec scelerisque ipsum. Donec et orci sed ante pellentesque faucibus. 
+                            In molestie congue lorem sed dictum. Morbi velit eros, dictum nec dolor at, 
+                            efficitur scelerisque justo. Pellentesque nec est vestibulum, 
+                            aliquet nibh et, molestie dolor.</p> 
+                            
+                            <!-- <p2>Morbi vel feugiat odio. 
+                            Sed sem neque, pharetra sed magna vitae, porta congue tellus. 
+                            Aliquam varius tristique ex, eget fermentum lectus mattis ut. 
+                            </p2> -->
+                        
+                        </div>
+
+                        <div class="link-box">
+                            <a href="">Read more</a> 
+                        </div> 
+                      
+            </div>
+                           
+            </section>
+            </div>
+
+            <section class="wrapper-btn-all-articles">
+  
+                <div class="see-articles"> 
+
+                    <div class="button-articles">
+                        <a href="#">see all latest articles</a>
+                    </div>
+                
+                    <div class="icon">
+                        <img src="img/left-arrow.png">
+                    </div>
+
+                </div>
+            </section> 
+            
+            <!-- Carousel Section -->
+
+            <section class="Carousel">
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/blow.jpeg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/patong.jpeg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/turtles.jpeg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+              </section>
+
+              
+
+            <!-- Members Profile Section -->
+          
+
+            <div class="members-header">
+                    <h2>Our members vouch,</h2>
+            </div>
+
+            <section class="members">
+
+                <div class="wrapper-review">
+
+                    <div class="review-one">
+                        <img width="150px" src="img/profile-1.png" alt="">
+                        <p>"Using this site since 2014, travelled to 21 countries and counting, 
+                           hitched hike all the way… never looked back!"</p>
+                    </div>   
+
+                    <div class="review-two">
+                        <img width="150" src="img/profile-2.png" alt="">
+                        <p>"Met my wife on this website, we didn’t get married in the first month. 
+                           I would still sleep in the couch though . . ."</p>
+                    </div>  
+                    
+                </div> 
+                <br>
+                <br>
+                <!-- <div class="join-us">
+                        <button>Create a profile</button>
+                </div> -->
+
+        </section>
+
+         
+            <section class="featured-places">
+
+                <div class="header">
+                    <p>Travel Insiders, Bars we Love?</p>
+                </div>
+
+
+                <div class="wrapper-places">
+                    <div class="container-places">
+
+                        <div class="column-1">
+
+                            <div class="place-1">
+                              <a href=""><p>Paris - Bar Mates Rigatolli</p></a>
+                            </div>
+                        
+                        </div>
+
+                        <div class="column-2">
+
+                            <div class="place-3">
+                            <a href=""><p>London - Spitalfields</p></a>
+                            </div>
+    
+                            <div class="place-4">
+                            <a href=""><p>Paris - Pompidou</p></a>
+                            </div>
+
+                        </div>
+
+                        <div class="column-3">
+
+                            <div class="place-5">
+                            <a href=""><p>Milan - Underground</p></a>
+                            </div>
+    
+                            <div class="place-6">
+                            <a href=""><p>Bali - Filter Bar</p></a>
+                            </div>
+
+                        </div>    
+                    </div>        
+                </div>
+
+            </section>
+
+
+          
+
+            <!-- Subscription Section -->
+
+       
+        <section class="subscription">
+
+
+                <div class="sub-left">
+                    <img src="" alt="">
+                </div>
+
+                <div class="sub-right"> 
+
+                    <div class="wrapper-subscribe">
+
+                        <div class="subscribe-header">
+                            <p>Subscribe to our newsletter for your daily dose of soul travel reads,</p>
+                        </div>
+                   
+                        <div class="subscribe-input">
+                            <form action="" method="">
+                       
+                                <input type="email" name="" placeholder="email address">
+                                <br><br>
+                                <input type="submit" name="submitButton" onclick="alert('How are you doing?')" value="Subscribe me today">
+                            
+                            
+                            </form>
+                        </div>  
+
+                    </div> <!-- /*wrapper-subscribe ends here */ -->
+                </div> <!-- sub-right -->
+             
+
+        </section>
+        
+
+
+
+            <!-- Footer Section -->
+
+            <section class="footer"> 
+                    <div class="footer-nav-area">
+                            <div class="box">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Flights</a></li>
+                                <li><a href="#">Hotels</a></li>   
+                                <li><a href="#">Subscribe</a></li>
+                            </ul>
+                            </div> 
+                            
+                            <div class="box-2">
+                            <p>Triptico and Company &copy; 2012-2018</p>
+                            </div>
+                    </div>
+
+                    <div class="socialmedia-box">
+
+
+                <div class="wrapper-footer-left">     
+                    <div class="wrapper-icon">
+                        
+                        <div class="icon-box">
+
+                            <div class="icon-footer">
+                                <a href="#" alt="">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 485 485" style="enable-background:new 0 0 485 485;" xml:space="preserve" fill="#ffffff">
+                           <g>
+                               <path d="M200.767,400h65.266V242.413h43.798c0,0,4.104-25.428,6.103-53.235h-49.647v-36.264c0-5.416,7.109-12.696,14.153-12.696
+                                   h35.564V85h-48.366c-68.478,0-66.872,53.082-66.872,61.009v43.356h-31.771v53.029h31.771V400z"/>
+                               <path d="M0,0v485h485V0H0z M455,455H30V30h425V455z"/>
+                           </g>
+                                </a>
+                            </div>
+
+                            
+                            <div class="icon-footer">
+                                <a href="#" alt="">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                         viewBox="0 0 485 485" style="enable-background:new 0 0 485 485;" xml:space="preserve" fill="#ffffff">
+                            <g>
+	                            <path d="M85,341.458c28.599,18.34,62.568,29.037,99.065,29.037c118.871,0,183.873-98.473,183.873-183.876
+		                            c0-2.799-0.063-5.587-0.186-8.36c12.629-9.111,23.585-20.493,32.249-33.453c-11.59,5.14-24.045,8.616-37.118,10.178
+		                            c13.344-8,23.591-20.662,28.415-35.754c-12.488,7.404-26.319,12.785-41.038,15.681c-11.788-12.56-28.584-20.406-47.173-20.406
+		                            c-35.688,0-64.626,28.935-64.626,64.623c0,5.065,0.574,9.997,1.677,14.729c-53.71-2.698-101.33-28.424-133.203-67.526
+		                            c-5.564,9.547-8.751,20.647-8.751,32.492c0,22.419,11.406,42.201,28.748,53.79c-10.595-0.336-20.56-3.245-29.271-8.084
+		                            c-0.006,0.271-0.006,0.541-0.006,0.814c0,31.311,22.278,57.429,51.841,63.368c-5.423,1.474-11.133,2.268-17.027,2.268
+		                            c-4.164,0-8.213-0.406-12.161-1.163c8.225,25.676,32.093,44.361,60.373,44.88c-22.119,17.336-49.984,27.668-80.262,27.668
+		                            C95.199,342.365,90.056,342.059,85,341.458z"/>
+	                            <path d="M0,0v485h485V0H0z M455,455H30V30h425V455z"/>
+                            </g>
+                                </a>
+                            </div>
+
+                            <div class="icon-footer">
+                               <a href="#" alt="">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 388 388" style="enable-background:new 0 0 388 388;" xml:space="preserve" fill="#ffffff">
+                               <g>
+                                   <path d="M0,0v388h388V0H0z M364,364H24V24h340V364z M364,364"/>
+                                   <g>
+                                       <path d="M256.424,68.037H131.577c-35.049,0-63.561,28.512-63.561,63.561v124.846c0,35.053,28.512,63.561,63.561,63.561h124.847
+                                           c35.052,0,63.56-28.508,63.56-63.561V131.598C319.984,96.549,291.476,68.037,256.424,68.037z M292.566,256.445
+                                           c0,19.929-16.214,36.143-36.142,36.143H131.577c-19.925,0-36.139-16.214-36.139-36.143V131.598
+                                           c0-19.925,16.214-36.139,36.139-36.139h124.847c19.928,0,36.142,16.213,36.142,36.139V256.445z"/>
+                                       <path d="M260.982,142.547c-8.471,0-15.359-6.888-15.359-15.354c0-8.467,6.888-15.355,15.359-15.355
+                                           c8.466,0,15.354,6.888,15.354,15.355C276.336,135.659,269.448,142.547,260.982,142.547L260.982,142.547z"/>
+                                       <path d="M193.998,129.127c-35.779,0-64.892,29.113-64.892,64.892c0,35.783,29.113,64.896,64.892,64.896
+                                           c35.783,0,64.896-29.113,64.896-64.896C258.894,158.241,229.781,129.127,193.998,129.127z M193.998,231.499
+                                           c-20.655,0-37.475-16.816-37.475-37.479c0-20.655,16.82-37.467,37.475-37.467c20.663,0,37.471,16.812,37.471,37.467
+                                           C231.469,214.682,214.661,231.499,193.998,231.499z"/>
+                                   </g>
+                                   </a>
+                            </div>
+
+                            <div class="icon-footer">
+                                <a href="#" alt="">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 485 485" style="enable-background:new 0 0 485 485;" xml:space="preserve" fill="#ffffff">
+                               <g>
+                                   <rect x="89.016" y="189.906" width="67.506" height="203.096"/>
+                                   <path d="M122.323,162.186h0.446c23.551,0,38.194-15.601,38.194-35.101c-0.442-19.928-14.643-35.087-37.752-35.087
+                                       C100.107,91.998,85,107.157,85,127.085C85,146.585,99.678,162.186,122.323,162.186z"/>
+                                   <path d="M261.4,393.002V279.576c0-6.086,0.464-12.119,2.24-16.459c4.887-12.149,15.978-24.693,34.641-24.693
+                                       c24.439,0,34.195,18.629,34.195,45.92v108.657H400V276.535c0-62.379-33.307-91.398-77.744-91.398
+                                       c-35.871,0-51.883,19.74-60.856,33.547v0.665h-0.442c0.118-0.219,0.306-0.442,0.442-0.665v-28.779h-67.537
+                                       c0.905,19.053,0,203.096,0,203.096H261.4z"/>
+                                   <path d="M0,0v485h485V0H0z M455,455H30V30h425V455z"/>
+                                </g>
+                                    </a>
+                            </div>
+  
+                    
+                    
+                        </div>
+
+                        <div class="wrapper-address">
+
+                          <div class="icon-box"> 
+                          <img src="img/location-icon-white.png" width="20px" alt="">  
+                          </div>
+
+                          <div class="text">
+                          <p>197 Mountain Avenue, Fisherman Wharf</p> 
+                          </div> 
+
+                        </div>
+                    
+                    </div>
+                </div>
+
+
+                
+            </section>
+
+        
+
+        </div> <!-- wrapper body ends here -->
+    </div> <!-- main-content ends here -->    
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>
